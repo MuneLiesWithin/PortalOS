@@ -1,0 +1,26 @@
+footer, header {
+    background-color: #eee;
+    position: fixed;
+    width: 100%;
+    background-color: #eee;
+    z-index: 100;
+}
+
+header {
+    border-bottom: 2px solid rgb(7, 81, 146);
+    padding: 1.2em 1.4em;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    top: 0;
+}
+
+footer {
+    border-top: 2px solid rgb(7, 81, 146);
+    font-weight: bold;
+    text-align: center;
+    height: 35px;
+    padding-top: 1em;
+    bottom: 0;
+}

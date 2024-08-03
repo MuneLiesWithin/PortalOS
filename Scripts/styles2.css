@@ -1,7 +1,6 @@
 footer, header {
     background-color: #eee;
-    position: fixed;
-    width: 100%;
+    /*position: fixed;*/
     background-color: #eee;
     z-index: 100;
 }
@@ -23,4 +22,5 @@ footer {
     height: 35px;
     padding-top: 1em;
     bottom: 0;
+    margin-top: 2em;
 }

@@ -25,5 +25,23 @@ footer {
     margin-top: 2em;
 }
 
+#masterbutton {
+    border: none;
+    padding: 7px;
+    background-color: rgb(7, 81, 146);
+    color: white;
+    transition: .5s;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#masterbutton:hover{
+    background-color: rgb(150, 22, 22);
+    cursor: pointer;
+}
+
+#masterbutton:active{
+    color:rgb(143, 65, 65);
+}
 
 

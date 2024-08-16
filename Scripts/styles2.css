@@ -48,4 +48,18 @@ label {
     color: #222;
 }
 
+#page1 {
+    border: none;
+    margin-top: -2em;
+    margin-bottom: -2em;
+}
+
+
+#panel26 input{
+    height: 1.2em;
+}
+
+#panel31 input{
+    height: 1.2em;
+}
 

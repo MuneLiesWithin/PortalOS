@@ -23,7 +23,6 @@ footer {
     height: 35px;
     padding-top: 1em;
     bottom: 0;
-    margin-top: 2em;
 }
 
 #masterbutton {
@@ -51,8 +50,6 @@ label {
 
 #page1 {
     border: none;
-    margin-top: -2em;
-    margin-bottom: -2em;
 }
 
 #panel31 {
@@ -64,9 +61,13 @@ label {
     width: 90%;
 }
 
+#panel26 {
+    width: 110%;
+}
+
 .mastercontainer {
     position: absolute;
-    top: 25%;
+    top: 20%;
 }
 
 .masterform {
@@ -87,14 +88,8 @@ label {
 
 .anexos {
     margin-top: -5em;
-    margin-left: 2em;
+    margin-left: 4em;
     width: 50%;
 }
-
-/*
-#mastertitle {
-    text-align: center;
-}
-
 
 

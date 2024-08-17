@@ -54,6 +54,15 @@ label {
     margin-bottom: -2em;
 }
 
+#panel31 {
+    width: 150%;
+}
+
+
+#panel39 {
+    width: 90%;
+}
+
 
 #panel26 input{
     height: 1.2em;
@@ -64,8 +73,13 @@ label {
     height: 1.2em;
 }
 
-/*
-#panel26 div {
-    margin-left: -2em;
+.masterform {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.anexos {
+    margin-top: -5em;
+    width: 50%;
+}

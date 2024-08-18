@@ -65,9 +65,10 @@ label {
     width: 110%;
 }
 
+
 .mastercontainer {
     position: absolute;
-    top: 20%;
+    top: 20%;  
 }
 
 .masterform {

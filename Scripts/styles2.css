@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 footer, header {
     background-color: #eee;
     position: fixed;
@@ -72,8 +81,10 @@ label {
 }
 
 .mastercontainer {
-    position: absolute;
-    top: 20%;  
+        flex: 1;
+        margin-top: 80px; 
+        margin-bottom: 35px; 
+        overflow-y: auto;
 }
 
 .masterform {

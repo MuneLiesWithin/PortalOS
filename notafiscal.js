@@ -239,7 +239,7 @@ function getData(nota) {
     }).done(function (result) {
 
         if (result.emissao != null || result.emissao) {
-            document.getElementById('form').remove()
+            document.getElementById('masterbody').remove()
             $.notify("Nota Fiscal já encaminhada, não é possível encaminha-la novamente!", {
                 className: 'info',
                 autoHide: false,

@@ -2452,13 +2452,8 @@
         <img src="Imagens/onbase.png" alt="onbase">
         <img src="Imagens/power.png" alt="power" style="margin-bottom: 2.5em;">  
     </header>
-    <div class="mastercontainer" style="height: 100%;">
-        <form id="form" dir="ltr" class="unityformelement unityformelementcontainer containerFloatInherit form" method="post">
-            <div id="header" dir="ltr" class="unityformelement unityformelementcontainer containerFloatInherit unityformelementcontentcontainer pageheader ui-widget-content">
-                <h1 class="label_container">
-                    <span class="bold_label"></span>
-                </h1>
-            </div>
+    <div class="mastercontainer">
+        <form id="form" method="post">
             <div id="page1" dir="ltr" class="unityformelement unityformelementcontainer containerFloatInherit unityformelementcontentcontainer page ui-widget-content first_page">
                 <div id="panel17" dir="ltr" class="unityformelement unityformelementcontainer containerFloatInherit ui-helper-clearfix panel">
                     <div id="panel17_column1" dir="ltr" class="unityformelement unityformelementcontainer containerFloatInherit layout_column" style="width: 85%;">
@@ -2545,10 +2540,6 @@
                                     <div id="tipoNota" dir="ltr" class="unityformelement readonly containerFloatInherit field combobox">
                                         <label for="Nota_tipo" class="field_label bold_label">TIPO DA NOTA</label>
                                         <input name="tipoNota_input" id="Nota_tipo" aria-describedby="tipoNota_description" aria-required="false" readonly=readonly maxresults="0" tabindex="0" class="field_input ui-widget-content select_input readonly" type="text" value="Servico" />
-                                        <!-- <button style="border-left: 0;" type="button" aria-label="TIPO DA NOTA lista suspensa" tabindex="0" class="comboboxbutton ui-button ui-widget ui-state-default ui-button-icon-only ui-icon-arrow-1-s ui-state-disabled readonly" >
-                                  <span class="ui-button-icon-primary ui-icon ui-icon-triangle-1-s"></span>
-                                  <span class="ui-button-text"></span>
-                                </button> -->
                                         <div class="field_print ui-widget-content hidden">SERVIÇO</div>
                                         <span class="section_expanded selectListDescription" id="tipoNota_description">Pressione a tecla de seta para baixo para acessar os valores disponíveis para este campo ou comece a digitar para filtrar os valores</span>
                                     </div>
@@ -2559,19 +2550,7 @@
                                     <div id="dataEmissao" dir="ltr" class="unityformelement containerFloatInherit field datepicker">
                                         <label for="Emissao" class="field_label bold_label">DATA DA EMISSÃO</label>
                                         <input name="dataEmissao_input" id="Emissao" type="date" aria-required="false" tabindex="1" dir="ltr" aria-describedby="dataEmissao_descriptionText" class="field_input ui-widget-content" value="" onblur="validateData()" />
-            
-            
                                     </div>
-                                    <!-- <div id="SERIE" dir="ltr" class="unityformelement containerFloatInherit field"> -->
-                                    <!-- <label for="Serie" class="field_label bold_label">SÉRIE</label> -->
-                                    <!-- <input name="SERIE_input" id="Serie" type="text" aria-required="false" tabindex="1"  class="field_input ui-widget-content readonly" maxlength="250" value="" /> -->
-                                    <!-- <div class="field_print ui-widget-content hidden">121212121212</div> -->
-                                    <!-- </div> -->
-                                    <!-- <div id="validador_dataemissao" dir="ltr" class="unityformelement readonly containerFloatInherit field">
-                              <label for="validador_dataemissao_input" class="field_label bold_label">Validação Data</label>
-                              <input type="text"  value="-38" tabindex="0" id="validador_dataemissao_input" class="field_input ui-widget-content readonly calculated" />
-                              <div class="field_print ui-widget-content hidden">-38</div>
-                            </div> -->
                                 </div>
                             </div>
                             <div id="panel31_column4" dir="ltr" class="unityformelement unityformelementcontainer containerFloatInherit layout_column" style="width: 22%;">
@@ -2596,19 +2575,10 @@
                                         <div id="attachment107_container" class="container ui-widget-content">
                                             <span id="attachment107_errorMsg" class="hidden"></span>
                                             <div id="attach_18534" class="ui-attach-container">
-                                                <!-- <label class="field_label required" for="file_18534"></label> -->
-                                                <!-- <div class="attached-document-container">
-                                          <p id="37186" data-attachment-type="18534" class="attached attached_document js-action-container">
-                                            <a class="attachedDocument" title="Clique aqui para exibir o documento anexado." href="javascript:displayDocument(37186);" tabindex="0"></a>
-                                            &nbsp;<span class="remove_button_wrapper"><a href="javascript:removeAttachment('attachment107', 18534, '37186');" title="Remover o link do formulário." class="attached remove-link" tabindex="0">Remover</a></span>
-                                          </p>
-                                        </div> -->
                                                 <div>
                                                     <span name="form" style="margin-top: 5px;">
                                                         <input type="file" name="filename" id="Nota_pdf" accept=".pdf" onchange="getBase64(this)" />
-                                                        <!-- <button type="button" class="button ui-button ui-button-label-wrap ui-state-default ui-button-text-only file_input_button" title="Adicionar anexos ao campo para o tipo de anexo ." tabindex="0">
-                                                  <span class="bold_label ui-button-text">Anexar PDF</span>
-                                                </button> -->
+                                                       
                                                     </span>
                                                 </div>
                                             </div>
@@ -2625,16 +2595,12 @@
                                             </div>
                                         </div>
                                         <div id="attachment114_container" class="container ui-widget-content">
-                                            <!-- <span id="attachment114_errorMsg" class="hidden"></span> -->
                                             <div id="attach_18536" class="ui-attach-container">
                                                 <span class="field_label" for="file_18536">Comprovação de execução, CNO, CND, n° do processo, guias de recolhimento, boleto, etc</span>
-                                                <!-- <div class="attached-document-container"></div> -->
+                                               
                                                 <div>
                                                     <span name="form" style="margin-top: 5px;">
                                                         <input type="file" name="filename" id="Evidencia" accept=".pdf" onchange="getBase64(this)" />
-                                                        <!-- <button type="button" class="button ui-button ui-button-label-wrap ui-state-default ui-button-text-only file_input_button" title="Adicionar anexos ao campo para o tipo de anexo Comprovação de execução, CNO, CND, n° do processo, guias de recolhimento, etc." tabindex="0">
-                                                  <span class="bold_label ui-button-text">Anexar Evidência</span>
-                                                </button> -->
                                                     </span>
                                                 </div>
                                             </div>
@@ -2654,19 +2620,10 @@
                                     <div id="attachment108_container" class="container ui-widget-content">
                                         <span id="attachment108_errorMsg" class="hidden"></span>
                                         <div id="attach_18535" class="ui-attach-container">
-                                            <!-- <label class="field_label required" for="file_18535"></label>
-                                    <div class="attached-document-container">
-                                      <p id="37187" data-attachment-type="18535" class="attached attached_document js-action-container">
-                                        <a class="attachedDocument" title="Clique aqui para exibir o documento anexado." href="" tabindex="0"></a>
-                                        &nbsp;<span class="remove_button_wrapper"><a href="javascript:removeAttachment('attachment108', 18535, '37187');" title="Remover o link do formulário." class="attached remove-link" tabindex="0">Remover</a></span>
-                                      </p>
-                                    </div> -->
                                             <div>
                                                 <span name="form" style="margin-top: 5px;">
                                                     <input type="file" name="filename" id="Nota_xml" accept=".xml,.txt" onchange="getBase64(this)" />
-                                                    <!-- <button type="button" class="button ui-button ui-button-label-wrap ui-state-default ui-button-text-only file_input_button" title="Adicionar anexos ao campo para o tipo de anexo ." tabindex="0">
-                                              <span class="bold_label ui-button-text">Anexar XML</span>
-                                            </button> -->
+                                                    
                                                 </span>
                                             </div>
                                         </div>
@@ -2682,9 +2639,6 @@
                                     </div>
                                     <div id="gerarXML" dir="ltr" class="unityformelement containerFloatInherit submit formbutton">
                                         <input id="masterbutton" type="button" name="gerarXML" tabindex="0" value="Gerar XML" class="bold_label button ui-state-default ui-button-label-wrap ui-button" onclick=" window.open('./gerarxml.html','_blank')" />
-                                        <!-- <button type="button" class="button ui-button ui-button-label-wrap ui-state-default ui-button-text-only file_input_button" title="" tabindex="0">
-                          Salvar Nota
-                        </button> -->
                                     </div>
                                 </div>
                             </div>
@@ -2703,9 +2657,6 @@
                             </div>
                             <div id="submit" dir="ltr" class="unityformelement containerFloatInherit submit formbutton">
                                 <input id="masterbutton" type="button" name="submit" tabindex="0" value="Enviar Nota" class="bold_label button ui-state-default ui-button-label-wrap ui-button" onclick="sendData()" />
-                                <!-- <button type="button" class="button ui-button ui-button-label-wrap ui-state-default ui-button-text-only file_input_button" title="" tabindex="0">
-                          Salvar Nota
-                        </button> -->
                             </div>
                         </div>
                     </div>

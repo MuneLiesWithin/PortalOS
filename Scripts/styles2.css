@@ -67,6 +67,7 @@ label {
     border: none;
     margin: 2em 0 0 2em;
     padding: 0;
+    height: auto;
 }
 
 #panel31 {
@@ -111,4 +112,13 @@ label {
     width: 50%;
 }
 
+#form {
+    height: 100%;
+}
 
+/*
+@media (min-height: 700px) {
+    footer {
+        background-color: #222;
+    }
+}

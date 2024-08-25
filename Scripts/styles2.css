@@ -13,7 +13,7 @@ body {
     flex-direction: column;
 }
 
-footer, header {
+header {
     background-color: #eee;
     position: fixed;
     background-color: #eee;
@@ -29,15 +29,6 @@ header {
     height: 100px;
     align-items: center;
     top: 0;
-}
-
-footer {
-    border-top: 2px solid rgb(7, 81, 146);
-    font-weight: bold;
-    text-align: center;
-    height: 35px;
-    padding-top: 1em;
-    bottom: 0;
 }
 
 #masterbutton {
@@ -104,7 +95,6 @@ label {
 }
 
 .anexos {
-    margin-top: -5em;
     margin-left: 4em;
     width: 50%;
 }

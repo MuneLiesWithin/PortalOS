@@ -1,24 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body, html {
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 header {
     background-color: #eee;
     position: fixed;
     background-color: #eee;
     z-index: 100;
     width: 100%;
+    box-sizing: border-box;
 }
 
 header {
@@ -73,10 +59,8 @@ label {
 }
 
 .mastercontainer {
-    flex: 1;
     overflow-y: auto;
-    margin-top: 100px;
-    margin-bottom: 35px;
+    margin-top: 135px;
 }
 
 .masterform {

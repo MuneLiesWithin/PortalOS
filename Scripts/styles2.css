@@ -83,6 +83,10 @@ label {
     width: 50%;
 }
 
+#painel142 {
+    margin-top: 1em;
+}
+
 /*
 @media (min-height: 700px) {
     footer {

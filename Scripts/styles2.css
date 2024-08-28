@@ -43,7 +43,7 @@ label {
 #page1 {
     border: none;
     padding: 0;
-    margin: 2em 0 0 2em;
+    margin-left: 2em;
 }
 
 #panel31 {
@@ -60,7 +60,7 @@ label {
 
 .mastercontainer {
     overflow-y: auto;
-    margin-top: 135px;
+    margin-top: 110px;
 }
 
 .masterform {
@@ -89,7 +89,7 @@ label {
 
 /*
 @media (min-height: 700px) {
-    footer {
+    header {
         background-color: #222;
     }
 }

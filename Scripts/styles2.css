@@ -88,7 +88,12 @@ label {
 }
 
 #tipoNota {
-    width: 101%;
+    width: 101.5%;
+}
+
+/*
+#dataEmissao {
+    width: 100%;
 }
 
 /*

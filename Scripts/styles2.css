@@ -95,6 +95,13 @@ label {
     margin-top: 2em;
 }
 
+
+.paragrafoXML {
+    position: absolute;
+    top: 50%;
+    left: 74%;
+}
+
 /*
 #dataEmissao {
     width: 100%;

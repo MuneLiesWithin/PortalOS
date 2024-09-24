@@ -111,6 +111,7 @@ function sendData() {
         MensagemParaOnbase_Valid = msgValidacao
     }
 
+    loadAnimation()
 
     var nota = window.location.search.replace('?', '')
 
@@ -430,6 +431,11 @@ function validateFeriado(d) {
 
 function apenasNumeros(campo) {
     campo.value = campo.value.replace(/\D/g, '');
+}
+
+function loadAnimation() {
+    const loadElement = document.getElementById("loadanime")
+    loadElement.classList.add("lds-ring")
 }
 
 
